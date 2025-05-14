@@ -157,7 +157,9 @@ You're analyzing a company based on its website.
             pretty_report = f"""
 # Weidert AI Client Research Report
 
-**Generated for role:** {role}
+**Website analyzed:** {url}  
+**Generated for role:** {role}  
+**Date:** {datetime.datetime.now().strftime('%B %d, %Y')}
 
 ---
 
@@ -167,7 +169,7 @@ You're analyzing a company based on its website.
             st.download_button(
                 label="📥 Download Report",
                 data=pretty_report,
-                file_name="WACR_Report.txt",
+                filename = f"WACR_Report_{url}_for_{role}.txt",
                 mime="text/plain"
             )
 
