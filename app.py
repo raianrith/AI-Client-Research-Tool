@@ -167,6 +167,9 @@ You're analyzing a company based on its website.
 {report}
 """
             # Add download button
+            
+            st.warning("⚠️ Note: Once you click 'Download Report', the on-screen report may disappear due to how Streamlit handles re-renders.")
+
             st.download_button(
                 label="📥 Download Report",
                 data=pretty_report,
