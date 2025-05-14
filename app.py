@@ -5,6 +5,7 @@ import re
 from urllib.parse import urljoin
 from openai import OpenAI
 import os
+import datetime
 
 # Use the secure API key from Streamlit Secrets
 api_key = os.getenv("OPENAI_API_KEY")
