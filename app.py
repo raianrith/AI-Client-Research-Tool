@@ -11,7 +11,7 @@ import datetime
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
-st.set_page_config(page_title="Weidert AI Client Research Tool", page_icon="🧠")
+st.set_page_config(page_title="Weidert AI Client Research Tool", page_icon="Weidert_Logo_primary-logomark-antique.png")
 
 # Clean branded header
 st.markdown(
@@ -170,7 +170,7 @@ You're analyzing a company based on its website.
             st.download_button(
                 label="📥 Download Report",
                 data=pretty_report,
-                filename = f"WACR_Report_{url}_for_{role}.txt",
+                file_name = f"WACR_Report_{url}_for_{role}.txt",
                 mime="text/plain"
             )
 
