@@ -12,16 +12,8 @@ client = OpenAI(api_key=api_key)
 
 st.set_page_config(page_title="AI Client Research Tool", page_icon="Weidert_Logo_primary-logomark-antique.png")
 # Centered logo above title
-st.markdown(
-    """
-    <div style="text-align: center;">
-        <img src="Weidert_Logo_primary-logomark-antique.png" width="100">
-        <h1>AI Client Research Tool</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
+st.image("Weidert_Logo_primary-logomark-antique.png", width=150)
+st.title("Weidert AI Client Research Tool (The WACR Tool)")
 st.markdown("Analyze any company website using AI based on your role.")
 
 # User input fields
