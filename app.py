@@ -75,28 +75,21 @@ You are a strategist evaluating this company based on its website. Focus on:
 """
     elif role == "Business Development":
         return """
-You're a Business Development (BD) professional evaluating this company. Focus on:
+You're a Business Development (BD) professional for a marketing agency evaluating this company.
 
 Provide a comprehensive bullet-point report including:
-1. What the company does
-2. Products or services offered
-3. Who do they sell to (buyer personas, industries, roles)?
-4. About and mission
-5. Key differentiators and value propositions
-6. Contact info, HQ location (if visible)
-7. Social or partner links
-8. Key team members with titles (CEO, VP, Marketing/Sales heads)
-9. High-level marketing, SEO, or messaging observations
-10. Provide a positioning statement in the following format: 
-    i ) To: (Target Audience)
-    ii) We are the brand of: 
-    iii) That: 
-    iv) So that you feel: 
-    v) That's because unlike:
-    vi) We:
-11. What is the companys comp advantage
-12. What are the primary messaging themes on the site
-13. Describe their brand personality and ton
+
+1. What industry are they in? (manufacturing, professional services, healthcare, etc.)
+2. What are their listed products and/or services?
+3. Who is their customer? And who do they sell to?
+4. Company overview: size, number of employees, where are they located, latest news/headlines
+5. Interesting Facts
+6. In the News
+7. What is their current marketing presence? (website quality, content frequency/blog, social media accounts/activity, ads)
+8. Who do they compete with?
+9. What is the role of the person reaching out?
+10. Who are the key players on their marketing and sales teams?
+11. Meeting Questions to ask
 """
     elif role == "Client Success Manager":
         return """
