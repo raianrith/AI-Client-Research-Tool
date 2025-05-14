@@ -154,5 +154,22 @@ You're analyzing a company based on its website.
             st.success("✅ Report generated!")
             st.markdown("### 📄 AI-Powered Insights")
             st.markdown(report)
+            pretty_report = f"""
+# Weidert AI Client Research Report
+
+**Generated for role:** {role}
+
+---
+
+{report}
+"""
+            # Add download button
+            st.download_button(
+                label="📥 Download Report",
+                data=pretty_report,
+                file_name="WACR_Report.txt",
+                mime="text/plain"
+            )
+
         except Exception as e:
             st.error(f"❌ Error calling OpenAI API: {e}")
