@@ -88,7 +88,7 @@ Provide a comprehensive bullet-point report including:
 7. What is their current marketing presence? (website quality, content frequency/blog, social media accounts/activity, ads)
 8. Who do they compete with?
 9. What is the role of the person reaching out?
-10. Who are the key players on their marketing and sales teams? (Answer this by crawling linkedin only)
+10. Who are the key players on their marketing and sales teams? (2 to 3 people who currently work in the company as listed on their linkedin profile)
 11. Meeting Questions to ask
 """
     elif role == "Client Success Manager":
