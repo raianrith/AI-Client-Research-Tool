@@ -18,8 +18,7 @@ st.markdown(
     <div style='text-align: center; padding-top: 10px; padding-bottom: 10px;'>
         <img src='https://github.com/raianrith/AI-Client-Research-Tool/blob/main/Weidert_Logo_primary-logomark-antique.png?raw=true' width='100' style='margin-bottom: 10px;' />
         <h1 style='font-size: 2.4em; margin-bottom: 0;'>Weidert AI Client Research Tool</h1>
-        <h3 style='color: gray; margin-top: 4px;'>(The WACR Tool)</h3>
-        <p style='margin-top: 10px; font-size: 1.05em;'>Analyze any company website using AI based on your role.</p>
+        <p style='margin-top: 10px; font-size: 1.05em;'>[ The WACR Tool ]</p>
     </div>
     """,
     unsafe_allow_html=True
