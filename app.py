@@ -10,8 +10,18 @@ import os
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
-st.set_page_config(page_title="AI Client Research Tool", page_icon="🧠")
-st.title("🧠 AI Client Research Tool")
+st.set_page_config(page_title="AI Client Research Tool", page_icon="logo.png")
+# Centered logo above title
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="logo.png" width="100">
+        <h1>AI Client Research Tool</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.markdown("Analyze any company website using AI based on your role.")
 
 # User input fields
